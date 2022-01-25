@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Bonus Layout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .first-photo img {
+            height: 500px;
+        }
+
+        .side-photo img {
+            height: 400px;
+        }
+
+        .third img {
+            height: 100px;
+            width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-4 first-photo">
+                <img class="img-fluid" src="images/1.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row g-0 side-photo">
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col third">
+                        <img class="img-fluid" src="images/7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

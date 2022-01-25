@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        blockquote::before {
+            content: open-quote;
+            font-size: 2em;
+            color: blue;
+        }
+
+        blockquote::after {
+            content: close-quote;
+            font-size: 3em;
+            color: chartreuse;
+        }
+
+        .s-title {
+            display: inline-block;
+        }
+
+        .s-title::after {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: crimson;
+
+        }
+
+        .s-title:hover::before {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: crimson;
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2 class="s-title">Best Quotes</h2>
+        <blockquote>
+            ey kefhfyutt fkdhgrt kgdgy nbgtt ,hgertkkrkgg nuyrweieoehfv bvttfyr9rettjwe ewf ,ehfeyftewew
+            uwtwr7wryr8yrrihdegrg,bvtwfere uwegtwe9ibhveyfgereruhvfgfgju
+        </blockquote>
+    </section>
+</body>
+
+</html>
